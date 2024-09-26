@@ -178,7 +178,7 @@ if ticker:
                 st.rerun()
 
     # Card to place an order
-    st.subheader("Place an Order")
+    st.subheader("Place an Order (this doesnt actually place an order yet)")
     order_type = st.selectbox("Order Type", ["Buy", "Sell"])
     quantity = st.number_input("Quantity", min_value=1, step=1)
 
