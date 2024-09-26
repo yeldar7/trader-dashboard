@@ -1,6 +1,6 @@
 yfinance
 streamlit
 plotly
-TA-Lib
+ta-lib-bin
 # This has to be any version before 2.0 to be compatible with TA-Lib
 numpy==1.26.4
